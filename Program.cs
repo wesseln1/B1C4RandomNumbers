@@ -21,9 +21,9 @@ namespace randomNumbers
             for (int i = 0; i < numbers.Count; i++)
             {
                 // Determine if the current loop index is contained inside of the `numbers` list. Print a message to the console indicating whether the index is in the list.
-                if (i == numbers[i])
+                if (numbers.Contains(i))
                 {
-                    Console.WriteLine($"the number is {numbers[i]}, and is contained in the lsit.");
+                    Console.WriteLine($"the number is {numbers[i]}, and is contained in the list.");
                 }
                 else
                 {
